@@ -15,7 +15,8 @@
         "laravel/framework": "^7.0",
         "laravel/installer": "^3.1",
         "laravel/tinker": "^2.0",
-        "laravel/ui": "^2.0"
+        "laravel/ui": "^2.0",
+        "gloudemans/shoppingcart": "^2.6"
     },
     "require-dev": {
         "facade/ignition": "^2.0",
