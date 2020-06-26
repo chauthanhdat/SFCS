@@ -245,7 +245,7 @@
                                                 <figure>
                                                     <div class="snipcart-item block">
                                                         <div class="snipcart-thumb">
-                                                            <a href="products.html"><img title=" " alt=" " class="img-responsive" src="assets/client/images/1.png" style="width:150px;height:150px;" /></a>
+                                                            <a href="products.html"><img title=" " alt=" " class="img-responsive" src="assets/client/images/4.png" style="width:150px;height:150px;" /></a>
                                                             <p>Cơm Tấm</p>
                                                             <h4>20.000 ₫ <span>25.000 ₫</span></h4>
                                                         </div>
@@ -281,7 +281,7 @@
                                                 <figure>
                                                     <div class="snipcart-item block">
                                                         <div class="snipcart-thumb">
-                                                            <a href="products.html"><img src="assets/client/images/2.png" alt=" " class="img-responsive" style="width:150px;height:150px;" /></a>
+                                                            <a href="products.html"><img src="assets/client/images/5.png" alt=" " class="img-responsive" style="width:150px;height:150px;" /></a>
                                                             <p>Hủ Tiếu</p>
                                                             <h4>20.000 ₫ <span>25.000 ₫</span></h4>
                                                         </div>
@@ -317,7 +317,7 @@
                                                 <figure>
                                                     <div class="snipcart-item block">
                                                         <div class="snipcart-thumb">
-                                                            <a href="products.html"><img src="assets/client/images/3.png" alt=" " class="img-responsive" style="width:150px;height:150px;" /></a>
+                                                            <a href="products.html"><img src="assets/client/images/6.png" alt=" " class="img-responsive" style="width:150px;height:150px;" /></a>
                                                             <p>Mì Trộn</p>
                                                             <h4>20.000 ₫ <span>25.000 ₫</span></h4>
                                                         </div>

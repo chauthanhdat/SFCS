@@ -1,7 +1,11 @@
 <div class="agileits_header">
     <div class="container">
         <div class="w3l_offers">
-            <p><a href="products.html">EAT NOW</a></p>
+            <div>
+                <a href="{{ url('/') }}">
+                    <img src="/svg/SFCSLogo.svg" style="height: 30px">
+                </a>
+            </div>
         </div>
         <div class="agile-login">
             <ul>
@@ -27,7 +31,7 @@
         <div class="w3ls_logo_products_left">
             <h1><a href="index.html">smart food court system</a></h1>
         </div>
-        <div class="w3l_search">
+        <!-- <div class="w3l_search">
             <form action="#" method="post">
                 <input type="search" name="Search" placeholder="Search for a Product..." required="">
                 <button type="submit" class="btn btn-default search" aria-label="Left Align">
@@ -35,7 +39,7 @@
                 </button>
                 <div class="clearfix"></div>
             </form>
-        </div>
+        </div> -->
 
         <div class="clearfix"> </div>
     </div>

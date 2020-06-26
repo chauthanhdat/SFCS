@@ -21,14 +21,14 @@ use Illuminate\Support\Facades\Route;
 
 // Route::get('/home', 'HomeController@index')->name('home');
 
-// Route::get('/', function () {
-//     return view('admin.pages.index');
-// });
-
-// Route::group(['prefix' => 'admin'], function () {
-//     Route::resource('category', 'CategoryController');
-// });
-
 Route::get('/', function () {
-    return view('client.pages.index');
+    return view('admin.pages.index');
 });
+
+Route::group(['prefix' => 'admin'], function () {
+    Route::resource('category', 'CategoryController');
+});
+
+// Route::get('/', function () {
+//     return view('client.pages.index');
+// });
