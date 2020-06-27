@@ -5,36 +5,35 @@ Add Product
 @endsection
 
 @section('content')
-<div class="row">
-    <div class="col-lg-12">
+<div class="card shadow mb-4">
+    <div class="card-header py-3">
+        <h6 class="m-0 font-weight-bold text-primary">Add Product</h6>
+    </div>
+    <div class="row" style="margin: 8px">
+        <div class="col-lg-12">
 
-        <form role="form">
+            <form role="form" action="{{ route('category.store') }}">
+                @csrf
 
-            <fieldset class="form-group">
-                <label>Text Input with Placeholder</label>
-                <input class="form-control" placeholder="Enter text">
-            </fieldset>
+                <fieldset class="form-group">
+                    <label>Name</label>
+                    <input class="form-control" name="name" placeholder="Enter product name">
+                </fieldset>
 
-            <div class="form-group">
-                <label>Static Control</label>
-                <p class="form-control-static">email@example.com</p>
-            </div>
+                <div class="form-group">
+                    <label>Status</label>
+                    <select class="form-control" name="status">
+                        <option value="1">Show</option>
+                        <option value="0">No Show</option>
+                    </select>
+                </div>
 
-            <fieldset class="form-group">
-                <label for="exampleInputFile">File input</label>
-                <input type="file" class="form-control-file" id="exampleInputFile">
-            </fieldset>
+                <button type="submit" class="btn btn-secondary">Submit Button</button>
+                <button type="reset" class="btn btn-secondary">Reset Button</button>
 
-            <fieldset class="form-group">
-                <label>Text area</label>
-                <textarea class="form-control" rows="3"></textarea>
-            </fieldset>
+            </form>
 
-            <button type="submit" class="btn btn-secondary">Submit Button</button>
-            <button type="reset" class="btn btn-secondary">Reset Button</button>
-
-        </form>
-
+        </div>
     </div>
 </div>
 @endsection
