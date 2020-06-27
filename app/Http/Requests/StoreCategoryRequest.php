@@ -24,7 +24,19 @@ class StoreCategoryRequest extends FormRequest
     public function rules()
     {
         return [
-            //
+            'name' => 'required'
         ];
+    }
+
+    public function messages()
+    {
+        return [
+            'required' => ':attribute must not be empty'
+        ];
+    }
+
+    public function attributes()
+    {
+        
     }
 }
