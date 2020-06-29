@@ -13,22 +13,22 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-// Route::get('/', function () {
-//     return view('welcome');
-// });
-
-// Auth::routes();
-
-// Route::get('/home', 'HomeController@index')->name('home');
-
 Route::get('/', function () {
+    return view('welcome');
+});
+
+Auth::routes();
+
+Route::get('/home', 'HomeController@index')->name('home');
+
+Route::get('/home', function () {
+    return view('client.pages.index');
+});
+
+Route::get('/admin', function () {
     return view('admin.pages.index');
 });
 
 Route::group(['prefix' => 'admin'], function () {
     Route::resource('category', 'CategoryController');
 });
-
-// Route::get('/', function () {
-//     return view('client.pages.index');
-// });
