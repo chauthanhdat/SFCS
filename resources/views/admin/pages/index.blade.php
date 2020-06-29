@@ -1,7 +1,7 @@
 @extends('admin.layouts.master')
 
 @section('title')
-Home Page
+SFCS Admin
 @endsection
 
 @section('content')
