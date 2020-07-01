@@ -37,6 +37,8 @@ class StoreCategoryRequest extends FormRequest
 
     public function attributes()
     {
-        
+        return [
+            'name' => 'Product name'
+        ];
     }
 }

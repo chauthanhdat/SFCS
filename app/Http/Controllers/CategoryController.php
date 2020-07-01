@@ -35,9 +35,14 @@ class CategoryController extends Controller
      * @param  \Illuminate\Http\Request  $request
      * @return \Illuminate\Http\Response
      */
-    public function store(Request $request)
+    public function store(StoreCategoryRequest $request)
     {
-        //
+        Category::create([
+            'name' => $request->name,
+            'slug' => utf8tourl($request->name),
+            'status' => $request->status
+        ]);
+        return redirect()->route('category.index');
     }
 
     /**
