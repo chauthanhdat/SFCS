@@ -19,6 +19,7 @@
 
   <!-- Custom styles for this template-->
   <link href="assets/admin/css/sb-admin-2.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="assets/admin/css/toastr.css">
 
 </head>
 

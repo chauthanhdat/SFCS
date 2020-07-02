@@ -73,7 +73,7 @@ Product List
                             <fieldset class="form-group">
                                 <label>Name</label>
                                 <input class="form-control name" name="name" placeholder="Nhập tên category">
-                                <span class="error" style="color: red;font-size: 1rem;"></span>
+                                <span class="error" style="color: red; font-size: 1rem;"></span>
                             </fieldset>
                             <div class="form-group">
                                 <label>Status</label>
@@ -88,7 +88,6 @@ Product List
             </div>
             <div class="modal-footer">
                 <button type="button" class="btn btn-success update">Save</button>
-                <button type="reset" class="btn btn-primary">Làm Lại</button>
                 <button class="btn btn-secondary" type="button" data-dismiss="modal">Cancel</button>
             </div>
         </div>

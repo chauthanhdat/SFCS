@@ -36,7 +36,26 @@ $(document).ready(function() {
                 dataType : 'json',
                 success : function($result) {
                     console.log($result);
-                    location.reload();
+                    toastr.success($result.success, 'Notify', {timeOut: 5000});
+                    $('#edit').modal('hide');
+                    setTimeout(location.reload.bind(location), 1000)
+                }
+            });
+        });
+    });
+    // delete
+    $('.delete').click(function(){
+        let id = $(this).data('id');
+        $('.del').click(function(){
+            $.ajax({
+                url : 'admin/category/'+id,
+                dataType : 'json',
+                type : 'delete',
+                success : function($result) {
+                    console.log($result);
+                    toastr.success($result.success, 'Notify', {timeOut: 5000});
+                    $('#edit').modal('hide');
+                    setTimeout(location.reload.bind(location), 1000)
                 }
             });
         });
