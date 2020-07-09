@@ -29,7 +29,7 @@
   <div id="wrapper">
 
     <!-- Sidebar -->
-    @include('admin.layouts.menu')
+    @include('admin.foodcourt.layouts.menu')
     <!-- End of Sidebar -->
 
     <!-- Content Wrapper -->
@@ -39,7 +39,7 @@
       <div id="content">
 
         <!-- Topbar -->
-        @include('admin.layouts.header')
+        @include('admin.foodcourt.layouts.header')
         <!-- End of Topbar -->
 
         <!-- Begin Page Content -->
@@ -51,7 +51,7 @@
       </div>
       <!-- End of Main Content -->
 
-      @include('admin.layouts.footer')
+      @include('admin.foodcourt.layouts.footer')
 
 </body>
 

@@ -1,4 +1,4 @@
-@extends('admin.layouts.master')
+@extends('admin.vendor.layouts.master')
 
 @section('title')
 Product List
@@ -17,6 +17,7 @@ Product List
                         <th>No.</th>
                         <th>Name</th>
                         <th>Slug</th>
+                        <!-- <th>Category</th> -->
                         <th>Status</th>
                         <th>Edit</th>
                     </tr>
@@ -26,6 +27,7 @@ Product List
                         <th>No.</th>
                         <th>Name</th>
                         <th>Slug</th>
+                        <!-- <th>Category</th> -->
                         <th>Status</th>
                         <th>Edit</th>
                     </tr>
