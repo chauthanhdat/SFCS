@@ -21,21 +21,15 @@ Auth::routes();
 
 Route::get('/home', 'HomeController@index')->name('home');
 
-Route::get('/client', function() {
-    return view('client.pages.index');
-});
+Route::view('/client', 'client.pages.index');
 
-Route::get('/admin/vendor', function() {
-    return view('admin.vendor.pages.index');
-});
+Route::view('/admin/vendor', 'admin.vendor.pages.index');
 
-Route::group(['prefix' => 'admin'], function() {
+Route::group(['prefix' => 'admin/vendor'], function() {
     Route::resource('category', 'CategoryController');
 });
 
-Route::get('/admin/foodcourt', function () {
-    return view('admin.foodcourt.pages.index');
-});
+Route::view('/admin/foodcourt', 'admin.foodcourt.pages.index');
 
 // Route::group(['prefix' => 'vendor'], function () {
 //     Route::resource('category', 'CategoryController');
