@@ -1,4 +1,4 @@
-@extends('admin.layouts.master')
+@extends('admin.foodcourt.layouts.master')
 
 @section('title')
 Add Product
@@ -33,8 +33,8 @@ Add Product
                     </select>
                 </div>
 
-                <button type="submit" class="btn btn-secondary">Submit Button</button>
-                <button type="reset" class="btn btn-secondary">Reset Button</button>
+                <button type="submit" class="btn btn-secondary">Submit</button>
+                <button type="reset" class="btn btn-secondary">Reset</button>
 
             </form>
 
