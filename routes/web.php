@@ -25,7 +25,7 @@ Route::view('/client', 'client.pages.index');
 
 Route::view('/admin/vendor', 'admin.vendor.pages.index');
 
-Route::group(['prefix' => 'admin/vendor'], function() {
+Route::group(['prefix' => 'admin'], function() {
     Route::resource('category', 'CategoryController');
 });
 
