@@ -15,7 +15,9 @@
     <style>
         html,
         body {
-            background-color: #fff;
+            background-image: url('Wallpaper.jpg');
+            background-position: center;
+            /* background-color: #fff; */
             color: #636b6f;
             font-family: 'Nunito', sans-serif;
             font-weight: 200;
@@ -72,22 +74,22 @@
         @if (Route::has('login'))
         <div class="top-right links">
             @auth
-            <a href="{{ url('/home') }}">Home</a>
+            <a href="{{ url('/home') }}" style="font-size:50px;color:white">Home</a>
             @else
-            <a href="{{ route('login') }}">Login</a>
+            <a href="{{ route('login') }}" style="font-size:50px;color:white">Login</a>
 
             @if (Route::has('register'))
-            <a href="{{ route('register') }}">Register</a>
+            <a href="{{ route('register') }}" style="font-size:50px">Register</a>
             @endif
             @endauth
         </div>
         @endif
 
-        <div class="content">
+        <!-- <div class="content">
             <div class="title m-b-md">
                 Smart Food Court System
             </div>
-        </div>
+        </div> -->
     </div>
 </body>
 

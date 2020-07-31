@@ -46,6 +46,7 @@
     <!-- header -->
     @include('client.layouts.header')
     <!-- //header -->
+
     <!-- navigation -->
     <div class="navigation-agileits">
         <div class="container">
@@ -82,7 +83,7 @@
                                 </div>
                             </ul>
                         </li>
-                        <li class="dropdown">
+                        <!-- <li class="dropdown">
                             <a href="#" class="dropdown-toggle" data-toggle="dropdown">Beverages<b class="caret"></b></a>
                             <ul class="dropdown-menu multi-column columns-3">
                                 <div class="row">
@@ -100,15 +101,16 @@
 
                                 </div>
                             </ul>
-                        </li>
+                        </li> -->
                         <li><a href="contact.html">Contact</a></li>
+                        <li><a href="">Logout</a></li>
                     </ul>
                 </div>
             </nav>
         </div>
     </div>
-
     <!-- //navigation -->
+
     <!-- top-brands -->
     <div class="top-brands">
         <div class="container">
@@ -116,8 +118,8 @@
             <div class="grid_3 grid_5">
                 <div class="bs-example bs-example-tabs" role="tabpanel" data-example-id="togglable-tabs">
                     <ul id="myTab" class="nav nav-tabs" role="tablist">
-                        <li role="presentation" class="active"><a href="#expeditions" id="expeditions-tab" role="tab" data-toggle="tab" aria-controls="expeditions" aria-expanded="true">Advertised offers</a></li>
-                        <li role="presentation"><a href="#tours" role="tab" id="tours-tab" data-toggle="tab" aria-controls="tours">Today Offers</a></li>
+                        <li role="presentation" class="active"><a href="#expeditions" id="expeditions-tab" role="tab" data-toggle="tab" aria-controls="expeditions" aria-expanded="true">Store A</a></li>
+                        <li role="presentation"><a href="#tours" role="tab" id="tours-tab" data-toggle="tab" aria-controls="tours">Store B</a></li>
                     </ul>
                     <div id="myTabContent" class="tab-content">
                         <div role="tabpanel" class="tab-pane fade in active" id="expeditions" aria-labelledby="expeditions-tab">
@@ -125,16 +127,13 @@
                                 <div class="col-md-4 top_brand_left">
                                     <div class="hover14 column">
                                         <div class="agile_top_brand_left_grid">
-                                            <div class="agile_top_brand_left_grid_pos">
-                                                <img src="assets/client/images/offer.png" alt=" " class="img-responsive" />
-                                            </div>
                                             <div class="agile_top_brand_left_grid1">
                                                 <figure>
                                                     <div class="snipcart-item block">
                                                         <div class="snipcart-thumb">
                                                             <a href="products.html"><img title=" " alt=" " class="img-responsive" src="assets/client/images/1.png" style="width:150px;height:150px;" /></a>
                                                             <p>Cơm Tấm</p>
-                                                            <h4>20.000 ₫ <span>25.000 ₫</span></h4>
+                                                            <h4>20.000 ₫</h4>
                                                         </div>
                                                         <div class="snipcart-details top_brand_home_details">
                                                             <form action="#" method="post">
@@ -148,7 +147,7 @@
                                                                     <input type="hidden" name="currency_code" value="VND" />
                                                                     <input type="hidden" name="return" value=" " />
                                                                     <input type="hidden" name="cancel_return" value=" " />
-                                                                    <input type="submit" name="submit" value="Add to cart" class="button" />
+                                                                    <input type="submit" name="submit" value="thêm vào giỏ" class="button" />
                                                                 </fieldset>
                                                             </form>
                                                         </div>
@@ -161,16 +160,13 @@
                                 <div class="col-md-4 top_brand_left">
                                     <div class="hover14 column">
                                         <div class="agile_top_brand_left_grid">
-                                            <div class="agile_top_brand_left_grid_pos">
-                                                <img src="assets/client/images/offer.png" alt=" " class="img-responsive" />
-                                            </div>
                                             <div class="agile_top_brand_left_grid1">
                                                 <figure>
                                                     <div class="snipcart-item block">
                                                         <div class="snipcart-thumb">
                                                             <a href="products.html"><img src="assets/client/images/2.png" alt=" " class="img-responsive" style="width:150px;height:150px;" /></a>
                                                             <p>Hủ Tiếu</p>
-                                                            <h4>20.000 ₫ <span>25.000 ₫</span></h4>
+                                                            <h4>20.000 ₫</h4>
                                                         </div>
                                                         <div class="snipcart-details top_brand_home_details">
                                                             <form action="#" method="post">
@@ -197,16 +193,13 @@
                                 <div class="col-md-4 top_brand_left">
                                     <div class="hover14 column">
                                         <div class="agile_top_brand_left_grid">
-                                            <div class="agile_top_brand_left_grid_pos">
-                                                <img src="assets/client/images/offer.png" alt=" " class="img-responsive" />
-                                            </div>
                                             <div class="agile_top_brand_left_grid1">
                                                 <figure>
                                                     <div class="snipcart-item block">
                                                         <div class="snipcart-thumb">
                                                             <a href="products.html"><img src="assets/client/images/3.png" alt=" " class="img-responsive" style="width:150px;height:150px;" /></a>
                                                             <p>Mì Trộn</p>
-                                                            <h4>20.000 ₫ <span>25.000 ₫</span></h4>
+                                                            <h4>20.000 ₫</h4>
                                                         </div>
                                                         <div class="snipcart-details top_brand_home_details">
                                                             <form action="#" method="post">
@@ -238,16 +231,13 @@
                                 <div class="col-md-4 top_brand_left">
                                     <div class="hover14 column">
                                         <div class="agile_top_brand_left_grid">
-                                            <div class="agile_top_brand_left_grid_pos">
-                                                <img src="assets/client/images/offer.png" alt=" " class="img-responsive" />
-                                            </div>
                                             <div class="agile_top_brand_left_grid1">
                                                 <figure>
                                                     <div class="snipcart-item block">
                                                         <div class="snipcart-thumb">
-                                                            <a href="products.html"><img title=" " alt=" " class="img-responsive" src="assets/client/images/4.png" style="width:150px;height:150px;" /></a>
-                                                            <p>Cơm Tấm</p>
-                                                            <h4>20.000 ₫ <span>25.000 ₫</span></h4>
+                                                            <a href="products.html"><img title=" " alt=" " class="img-responsive" src="assets/client/images/4.jpg" style="width:150px;height:150px;" /></a>
+                                                            <p>Bánh Tráng Trộn</p>
+                                                            <h4>20.000 ₫</h4>
                                                         </div>
                                                         <div class="snipcart-details top_brand_home_details">
                                                             <form action="#" method="post">
@@ -274,16 +264,13 @@
                                 <div class="col-md-4 top_brand_left">
                                     <div class="hover14 column">
                                         <div class="agile_top_brand_left_grid">
-                                            <div class="agile_top_brand_left_grid_pos">
-                                                <img src="assets/client/images/offer.png" alt=" " class="img-responsive" />
-                                            </div>
                                             <div class="agile_top_brand_left_grid1">
                                                 <figure>
                                                     <div class="snipcart-item block">
                                                         <div class="snipcart-thumb">
-                                                            <a href="products.html"><img src="assets/client/images/5.png" alt=" " class="img-responsive" style="width:150px;height:150px;" /></a>
-                                                            <p>Hủ Tiếu</p>
-                                                            <h4>20.000 ₫ <span>25.000 ₫</span></h4>
+                                                            <a href="products.html"><img src="assets/client/images/5.jpg" alt=" " class="img-responsive" style="width:150px;height:150px;" /></a>
+                                                            <p>Bánh Tráng Nướng</p>
+                                                            <h4>20.000 ₫</h4>
                                                         </div>
                                                         <div class="snipcart-details top_brand_home_details">
                                                             <form action="#" method="post">
@@ -310,16 +297,13 @@
                                 <div class="col-md-4 top_brand_left">
                                     <div class="hover14 column">
                                         <div class="agile_top_brand_left_grid">
-                                            <div class="agile_top_brand_left_grid_pos">
-                                                <img src="assets/client/images/offer.png" alt=" " class="img-responsive" />
-                                            </div>
                                             <div class="agile_top_brand_left_grid1">
                                                 <figure>
                                                     <div class="snipcart-item block">
                                                         <div class="snipcart-thumb">
-                                                            <a href="products.html"><img src="assets/client/images/6.png" alt=" " class="img-responsive" style="width:150px;height:150px;" /></a>
-                                                            <p>Mì Trộn</p>
-                                                            <h4>20.000 ₫ <span>25.000 ₫</span></h4>
+                                                            <a href="products.html"><img src="assets/client/images/6.jpg" alt=" " class="img-responsive" style="width:150px;height:150px;" /></a>
+                                                            <p>Bắp Xào</p>
+                                                            <h4>20.000 ₫</h4>
                                                         </div>
                                                         <div class="snipcart-details top_brand_home_details">
                                                             <form action="#" method="post">
@@ -360,17 +344,57 @@
             <div class="brands-agile">
                 <div class="col-md-2 w3layouts-brand">
                     <div class="brands-w3l">
-                        <p><a href="#">Lorem</a></p>
+                        <p><a href="#">Store A</a></p>
                     </div>
                 </div>
                 <div class="col-md-2 w3layouts-brand">
                     <div class="brands-w3l">
-                        <p><a href="#">Lorem</a></p>
+                        <p><a href="#">Store B</a></p>
                     </div>
                 </div>
                 <div class="col-md-2 w3layouts-brand">
                     <div class="brands-w3l">
-                        <p><a href="#">Lorem</a></p>
+                        <p><a href="#">Store C</a></p>
+                    </div>
+                </div>
+                <div class="col-md-2 w3layouts-brand">
+                    <div class="brands-w3l">
+                        <p><a href="#">Store D</a></p>
+                    </div>
+                </div>
+                <div class="col-md-2 w3layouts-brand">
+                    <div class="brands-w3l">
+                        <p><a href="#">Store E</a></p>
+                    </div>
+                </div>
+                <div class="col-md-2 w3layouts-brand">
+                    <div class="brands-w3l">
+                        <p><a href="#">Store F</a></p>
+                    </div>
+                </div>
+                <div class="col-md-2 w3layouts-brand">
+                    <div class="brands-w3l">
+                        <p><a href="#">Store G</a></p>
+                    </div>
+                </div>
+                <div class="col-md-2 w3layouts-brand">
+                    <div class="brands-w3l">
+                        <p><a href="#">Store H</a></p>
+                    </div>
+                </div>
+                <div class="col-md-2 w3layouts-brand">
+                    <div class="brands-w3l">
+                        <p><a href="#">Store I</a></p>
+                    </div>
+                </div>
+                <div class="col-md-2 w3layouts-brand">
+                    <div class="brands-w3l">
+                        <p><a href="#">Store K</a></p>
+                    </div>
+                </div>
+                <div class="col-md-2 w3layouts-brand">
+                    <div class="brands-w3l">
+                        <p><a href="#">Store L</a></p>
                     </div>
                 </div>
                 <div class="clearfix"></div>
@@ -379,7 +403,7 @@
     </div>
     <!--//brands-->
     <!-- new -->
-    <div class="newproducts-w3agile">
+    <!-- <div class="newproducts-w3agile">
         <div class="container">
             <h3>New offers</h3>
             <div class="agile_top_brands_grids">
@@ -387,8 +411,6 @@
                     <div class="hover14 column">
                         <div class="agile_top_brand_left_grid">
                             <div class="agile_top_brand_left_grid_pos">
-                                <img src="assets/client/images/offer.png" alt=" " class="img-responsive">
-                            </div>
                             <div class="agile_top_brand_left_grid1">
                                 <figure>
                                     <div class="snipcart-item block">
@@ -422,9 +444,6 @@
                 <div class="col-md-3 top_brand_left-1">
                     <div class="hover14 column">
                         <div class="agile_top_brand_left_grid">
-                            <div class="agile_top_brand_left_grid_pos">
-                                <img src="assets/client/images/offer.png" alt=" " class="img-responsive">
-                            </div>
                             <div class="agile_top_brand_left_grid1">
                                 <figure>
                                     <div class="snipcart-item block">
@@ -458,9 +477,6 @@
                 <div class="col-md-3 top_brand_left-1">
                     <div class="hover14 column">
                         <div class="agile_top_brand_left_grid">
-                            <div class="agile_top_brand_left_grid_pos">
-                                <img src="assets/client/images/offer.png" alt=" " class="img-responsive">
-                            </div>
                             <div class="agile_top_brand_left_grid1">
                                 <figure>
                                     <div class="snipcart-item block">
@@ -494,9 +510,6 @@
                 <div class="col-md-3 top_brand_left-1">
                     <div class="hover14 column">
                         <div class="agile_top_brand_left_grid">
-                            <div class="agile_top_brand_left_grid_pos">
-                                <img src="assets/client/images/offer.png" alt=" " class="img-responsive">
-                            </div>
                             <div class="agile_top_brand_left_grid1">
                                 <figure>
                                     <div class="snipcart-item block">
@@ -530,7 +543,7 @@
                 <div class="clearfix"> </div>
             </div>
         </div>
-    </div>
+    </div> -->
     <!-- //new -->
     <!-- Bootstrap Core JavaScript -->
     <script src="assets/client/js/bootstrap.min.js"></script>
