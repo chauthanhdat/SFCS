@@ -66,6 +66,15 @@
         .m-b-md {
             margin-bottom: 30px;
         }
+
+        .border-background {
+            width: 160px;
+            height: 80px;
+            background: #D2691E;
+            border-radius: 40px;
+            margin: auto;
+            text-align: center;
+        }
     </style>
 </head>
 
@@ -74,12 +83,12 @@
         @if (Route::has('login'))
         <div class="top-right links">
             @auth
-            <a href="{{ url('/home') }}" style="font-size:50px;color:white">Home</a>
+            <a href="{{ url('/home') }}" style="font-size:20px; color:white">Home</a>
             @else
-            <a href="{{ route('login') }}" style="font-size:50px;color:white">Login</a>
+            <a href="{{ route('login') }}" style="font-size:20px;color:white">Login</a>
 
             @if (Route::has('register'))
-            <a href="{{ route('register') }}" style="font-size:50px">Register</a>
+            <a href="{{ route('register') }}" style="font-size:20px">Register</a>
             @endif
             @endauth
         </div>

@@ -62,10 +62,10 @@
                 </div>
                 <div class="collapse navbar-collapse" id="bs-megadropdown-tabs">
                     <ul class="nav navbar-nav">
-                        <li class="active"><a href="index.html" class="act">Home</a></li>
+                        <li class="active"><a href="" class="act">Trang Chủ</a></li>
                         <!-- Mega Menu -->
                         <li class="dropdown">
-                            <a href="#" class="dropdown-toggle" data-toggle="dropdown">Groceries<b class="caret"></b></a>
+                            <a href="#" class="dropdown-toggle" data-toggle="dropdown">Ăn Uống<b class="caret"></b></a>
                             <ul class="dropdown-menu multi-column columns-3">
                                 <div class="row">
                                     <div class="multi-gd-img">
@@ -102,8 +102,8 @@
                                 </div>
                             </ul>
                         </li> -->
-                        <li><a href="contact.html">Contact</a></li>
-                        <li><a href="">Logout</a></li>
+                        <li><a href="contact.html">Liên Hệ</a></li>
+                        <li><a href="">Đăng xuất</a></li>
                     </ul>
                 </div>
             </nav>
@@ -111,290 +111,388 @@
     </div>
     <!-- //navigation -->
 
-    <!-- top-brands -->
-    <div class="top-brands">
-        <div class="container">
-            <h2>Top selling offers</h2>
-            <div class="grid_3 grid_5">
-                <div class="bs-example bs-example-tabs" role="tabpanel" data-example-id="togglable-tabs">
-                    <ul id="myTab" class="nav nav-tabs" role="tablist">
-                        <li role="presentation" class="active"><a href="#expeditions" id="expeditions-tab" role="tab" data-toggle="tab" aria-controls="expeditions" aria-expanded="true">Store A</a></li>
-                        <li role="presentation"><a href="#tours" role="tab" id="tours-tab" data-toggle="tab" aria-controls="tours">Store B</a></li>
-                    </ul>
-                    <div id="myTabContent" class="tab-content">
-                        <div role="tabpanel" class="tab-pane fade in active" id="expeditions" aria-labelledby="expeditions-tab">
-                            <div class="agile_top_brands_grids">
-                                <div class="col-md-4 top_brand_left">
-                                    <div class="hover14 column">
-                                        <div class="agile_top_brand_left_grid">
-                                            <div class="agile_top_brand_left_grid1">
-                                                <figure>
-                                                    <div class="snipcart-item block">
-                                                        <div class="snipcart-thumb">
-                                                            <a href="products.html"><img title=" " alt=" " class="img-responsive" src="assets/client/images/1.png" style="width:150px;height:150px;" /></a>
-                                                            <p>Cơm Tấm</p>
-                                                            <h4>20.000 ₫</h4>
-                                                        </div>
-                                                        <div class="snipcart-details top_brand_home_details">
-                                                            <form action="#" method="post">
-                                                                <fieldset>
-                                                                    <input type="hidden" name="cmd" value="_cart" />
-                                                                    <input type="hidden" name="add" value="1" />
-                                                                    <input type="hidden" name="business" value=" " />
-                                                                    <input type="hidden" name="item_name" value="Cơm Tấm" />
-                                                                    <input type="hidden" name="amount" value="25000" />
-                                                                    <input type="hidden" name="discount_amount" value="5000" />
-                                                                    <input type="hidden" name="currency_code" value="VND" />
-                                                                    <input type="hidden" name="return" value=" " />
-                                                                    <input type="hidden" name="cancel_return" value=" " />
-                                                                    <input type="submit" name="submit" value="thêm vào giỏ" class="button" />
-                                                                </fieldset>
-                                                            </form>
-                                                        </div>
+
+    <div class="container">
+        <div class="grid_3 grid_5">
+            <div class="bs-example bs-example-tabs" role="tabpanel" data-example-id="togglable-tabs">
+                <ul id="myTab" class="nav nav-tabs" role="tablist">
+                    <li role="presentation" class="active"><a href="#expeditions" id="expeditions-tab" role="tab" data-toggle="tab" aria-controls="expeditions" aria-expanded="true">Cửa Hàng A</a></li>
+                    <li role="presentation"><a href="#tours" role="tab" id="tours-tab" data-toggle="tab" aria-controls="tours">Cửa Hàng B</a></li>
+                </ul>
+                <div id="myTabContent" class="tab-content">
+                    <div role="tabpanel" class="tab-pane fade in active" id="expeditions" aria-labelledby="expeditions-tab">
+                        <div class="agile_top_brands_grids">
+                            <div class="col-md-4 top_brand_left">
+                                <div class="hover14 column">
+                                    <div class="agile_top_brand_left_grid">
+                                        <div class="agile_top_brand_left_grid1">
+                                            <figure>
+                                                <div class="snipcart-item block">
+                                                    <div class="snipcart-thumb">
+                                                        <a href="products.html"><img title=" " alt=" " class="img-responsive" src="assets/client/images/1.png" style="width:150px;height:150px;" /></a>
+                                                        <p>Cơm Tấm</p>
+                                                        <h4>20.000 ₫</h4>
                                                     </div>
-                                                </figure>
-                                            </div>
+                                                    <div class="snipcart-details top_brand_home_details">
+                                                        <form action="#" method="post">
+                                                            <fieldset>
+                                                                <input type="hidden" name="cmd" value="_cart" />
+                                                                <input type="hidden" name="add" value="1" />
+                                                                <input type="hidden" name="business" value=" " />
+                                                                <input type="hidden" name="item_name" value="Cơm Tấm" />
+                                                                <input type="hidden" name="amount" value="25000" />
+                                                                <input type="hidden" name="discount_amount" value="5000" />
+                                                                <input type="hidden" name="currency_code" value="VND" />
+                                                                <input type="hidden" name="return" value=" " />
+                                                                <input type="hidden" name="cancel_return" value=" " />
+                                                                <input type="submit" name="submit" value="thêm vào giỏ" class="button" />
+                                                            </fieldset>
+                                                        </form>
+                                                    </div>
+                                                </div>
+                                            </figure>
                                         </div>
                                     </div>
                                 </div>
-                                <div class="col-md-4 top_brand_left">
-                                    <div class="hover14 column">
-                                        <div class="agile_top_brand_left_grid">
-                                            <div class="agile_top_brand_left_grid1">
-                                                <figure>
-                                                    <div class="snipcart-item block">
-                                                        <div class="snipcart-thumb">
-                                                            <a href="products.html"><img src="assets/client/images/2.png" alt=" " class="img-responsive" style="width:150px;height:150px;" /></a>
-                                                            <p>Hủ Tiếu</p>
-                                                            <h4>20.000 ₫</h4>
-                                                        </div>
-                                                        <div class="snipcart-details top_brand_home_details">
-                                                            <form action="#" method="post">
-                                                                <fieldset>
-                                                                    <input type="hidden" name="cmd" value="_cart" />
-                                                                    <input type="hidden" name="add" value="1" />
-                                                                    <input type="hidden" name="business" value=" " />
-                                                                    <input type="hidden" name="item_name" value="Hủ Tiếu" />
-                                                                    <input type="hidden" name="amount" value="25000" />
-                                                                    <input type="hidden" name="discount_amount" value="5000" />
-                                                                    <input type="hidden" name="currency_code" value="VND" />
-                                                                    <input type="hidden" name="return" value=" " />
-                                                                    <input type="hidden" name="cancel_return" value=" " />
-                                                                    <input type="submit" name="submit" value="Add to cart" class="button" />
-                                                                </fieldset>
-                                                            </form>
-                                                        </div>
-                                                    </div>
-                                                </figure>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="col-md-4 top_brand_left">
-                                    <div class="hover14 column">
-                                        <div class="agile_top_brand_left_grid">
-                                            <div class="agile_top_brand_left_grid1">
-                                                <figure>
-                                                    <div class="snipcart-item block">
-                                                        <div class="snipcart-thumb">
-                                                            <a href="products.html"><img src="assets/client/images/3.png" alt=" " class="img-responsive" style="width:150px;height:150px;" /></a>
-                                                            <p>Mì Trộn</p>
-                                                            <h4>20.000 ₫</h4>
-                                                        </div>
-                                                        <div class="snipcart-details top_brand_home_details">
-                                                            <form action="#" method="post">
-                                                                <fieldset>
-                                                                    <input type="hidden" name="cmd" value="_cart" />
-                                                                    <input type="hidden" name="add" value="1" />
-                                                                    <input type="hidden" name="business" value=" " />
-                                                                    <input type="hidden" name="item_name" value="Mì Trộn" />
-                                                                    <input type="hidden" name="amount" value="25000" />
-                                                                    <input type="hidden" name="discount_amount" value="5000" />
-                                                                    <input type="hidden" name="currency_code" value="VND" />
-                                                                    <input type="hidden" name="return" value=" " />
-                                                                    <input type="hidden" name="cancel_return" value=" " />
-                                                                    <input type="submit" name="submit" value="Add to cart" class="button" />
-                                                                </fieldset>
-                                                            </form>
-                                                        </div>
-                                                    </div>
-                                                </figure>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="clearfix"> </div>
                             </div>
+                            <div class="col-md-4 top_brand_left">
+                                <div class="hover14 column">
+                                    <div class="agile_top_brand_left_grid">
+                                        <div class="agile_top_brand_left_grid1">
+                                            <figure>
+                                                <div class="snipcart-item block">
+                                                    <div class="snipcart-thumb">
+                                                        <a href="products.html"><img src="assets/client/images/2.png" alt=" " class="img-responsive" style="width:150px;height:150px;" /></a>
+                                                        <p>Hủ Tiếu</p>
+                                                        <h4>20.000 ₫</h4>
+                                                    </div>
+                                                    <div class="snipcart-details top_brand_home_details">
+                                                        <form action="#" method="post">
+                                                            <fieldset>
+                                                                <input type="hidden" name="cmd" value="_cart" />
+                                                                <input type="hidden" name="add" value="1" />
+                                                                <input type="hidden" name="business" value=" " />
+                                                                <input type="hidden" name="item_name" value="Hủ Tiếu" />
+                                                                <input type="hidden" name="amount" value="25000" />
+                                                                <input type="hidden" name="discount_amount" value="5000" />
+                                                                <input type="hidden" name="currency_code" value="VND" />
+                                                                <input type="hidden" name="return" value=" " />
+                                                                <input type="hidden" name="cancel_return" value=" " />
+                                                                <input type="submit" name="submit" value="Thêm vào giỏ" class="button" />
+                                                            </fieldset>
+                                                        </form>
+                                                    </div>
+                                                </div>
+                                            </figure>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-4 top_brand_left">
+                                <div class="hover14 column">
+                                    <div class="agile_top_brand_left_grid">
+                                        <div class="agile_top_brand_left_grid1">
+                                            <figure>
+                                                <div class="snipcart-item block">
+                                                    <div class="snipcart-thumb">
+                                                        <a href="products.html"><img src="assets/client/images/3.png" alt=" " class="img-responsive" style="width:150px;height:150px;" /></a>
+                                                        <p>Mì Trộn</p>
+                                                        <h4>20.000 ₫</h4>
+                                                    </div>
+                                                    <div class="snipcart-details top_brand_home_details">
+                                                        <form action="#" method="post">
+                                                            <fieldset>
+                                                                <input type="hidden" name="cmd" value="_cart" />
+                                                                <input type="hidden" name="add" value="1" />
+                                                                <input type="hidden" name="business" value=" " />
+                                                                <input type="hidden" name="item_name" value="Mì Trộn" />
+                                                                <input type="hidden" name="amount" value="25000" />
+                                                                <input type="hidden" name="discount_amount" value="5000" />
+                                                                <input type="hidden" name="currency_code" value="VND" />
+                                                                <input type="hidden" name="return" value=" " />
+                                                                <input type="hidden" name="cancel_return" value=" " />
+                                                                <input type="submit" name="submit" value="Thêm vào giỏ" class="button" />
+                                                            </fieldset>
+                                                        </form>
+                                                    </div>
+                                                </div>
+                                            </figure>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="clearfix"> </div>
                         </div>
-                        <div role="tabpanel" class="tab-pane fade" id="tours" aria-labelledby="tours-tab">
-                            <div class="agile_top_brands_grids">
-                                <div class="col-md-4 top_brand_left">
-                                    <div class="hover14 column">
-                                        <div class="agile_top_brand_left_grid">
-                                            <div class="agile_top_brand_left_grid1">
-                                                <figure>
-                                                    <div class="snipcart-item block">
-                                                        <div class="snipcart-thumb">
-                                                            <a href="products.html"><img title=" " alt=" " class="img-responsive" src="assets/client/images/4.jpg" style="width:150px;height:150px;" /></a>
-                                                            <p>Bánh Tráng Trộn</p>
-                                                            <h4>20.000 ₫</h4>
-                                                        </div>
-                                                        <div class="snipcart-details top_brand_home_details">
-                                                            <form action="#" method="post">
-                                                                <fieldset>
-                                                                    <input type="hidden" name="cmd" value="_cart" />
-                                                                    <input type="hidden" name="add" value="1" />
-                                                                    <input type="hidden" name="business" value=" " />
-                                                                    <input type="hidden" name="item_name" value="Cơm Tấm" />
-                                                                    <input type="hidden" name="amount" value="25000" />
-                                                                    <input type="hidden" name="discount_amount" value="5000" />
-                                                                    <input type="hidden" name="currency_code" value="VND" />
-                                                                    <input type="hidden" name="return" value=" " />
-                                                                    <input type="hidden" name="cancel_return" value=" " />
-                                                                    <input type="submit" name="submit" value="Add to cart" class="button" />
-                                                                </fieldset>
-                                                            </form>
-                                                        </div>
+                    </div>
+                    <div role="tabpanel" class="tab-pane fade" id="tours" aria-labelledby="tours-tab">
+                        <div class="agile_top_brands_grids">
+                            <div class="col-md-4 top_brand_left">
+                                <div class="hover14 column">
+                                    <div class="agile_top_brand_left_grid">
+                                        <div class="agile_top_brand_left_grid1">
+                                            <figure>
+                                                <div class="snipcart-item block">
+                                                    <div class="snipcart-thumb">
+                                                        <a href="products.html"><img title=" " alt=" " class="img-responsive" src="assets/client/images/4.jpg" style="width:150px;height:150px;" /></a>
+                                                        <p>Bánh Tráng Trộn</p>
+                                                        <h4>20.000 ₫</h4>
                                                     </div>
-                                                </figure>
-                                            </div>
+                                                    <div class="snipcart-details top_brand_home_details">
+                                                        <form action="#" method="post">
+                                                            <fieldset>
+                                                                <input type="hidden" name="cmd" value="_cart" />
+                                                                <input type="hidden" name="add" value="1" />
+                                                                <input type="hidden" name="business" value=" " />
+                                                                <input type="hidden" name="item_name" value="Bánh Tráng Trộn" />
+                                                                <input type="hidden" name="amount" value="25000" />
+                                                                <input type="hidden" name="discount_amount" value="5000" />
+                                                                <input type="hidden" name="currency_code" value="VND" />
+                                                                <input type="hidden" name="return" value=" " />
+                                                                <input type="hidden" name="cancel_return" value=" " />
+                                                                <input type="submit" name="submit" value="Thêm vào giỏ" class="button" />
+                                                            </fieldset>
+                                                        </form>
+                                                    </div>
+                                                </div>
+                                            </figure>
                                         </div>
                                     </div>
                                 </div>
-                                <div class="col-md-4 top_brand_left">
-                                    <div class="hover14 column">
-                                        <div class="agile_top_brand_left_grid">
-                                            <div class="agile_top_brand_left_grid1">
-                                                <figure>
-                                                    <div class="snipcart-item block">
-                                                        <div class="snipcart-thumb">
-                                                            <a href="products.html"><img src="assets/client/images/5.jpg" alt=" " class="img-responsive" style="width:150px;height:150px;" /></a>
-                                                            <p>Bánh Tráng Nướng</p>
-                                                            <h4>20.000 ₫</h4>
-                                                        </div>
-                                                        <div class="snipcart-details top_brand_home_details">
-                                                            <form action="#" method="post">
-                                                                <fieldset>
-                                                                    <input type="hidden" name="cmd" value="_cart" />
-                                                                    <input type="hidden" name="add" value="1" />
-                                                                    <input type="hidden" name="business" value=" " />
-                                                                    <input type="hidden" name="item_name" value="Hủ Tiếu" />
-                                                                    <input type="hidden" name="amount" value="25000" />
-                                                                    <input type="hidden" name="discount_amount" value="5000" />
-                                                                    <input type="hidden" name="currency_code" value="VND" />
-                                                                    <input type="hidden" name="return" value=" " />
-                                                                    <input type="hidden" name="cancel_return" value=" " />
-                                                                    <input type="submit" name="submit" value="Add to cart" class="button" />
-                                                                </fieldset>
-                                                            </form>
-                                                        </div>
-                                                    </div>
-                                                </figure>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="col-md-4 top_brand_left">
-                                    <div class="hover14 column">
-                                        <div class="agile_top_brand_left_grid">
-                                            <div class="agile_top_brand_left_grid1">
-                                                <figure>
-                                                    <div class="snipcart-item block">
-                                                        <div class="snipcart-thumb">
-                                                            <a href="products.html"><img src="assets/client/images/6.jpg" alt=" " class="img-responsive" style="width:150px;height:150px;" /></a>
-                                                            <p>Bắp Xào</p>
-                                                            <h4>20.000 ₫</h4>
-                                                        </div>
-                                                        <div class="snipcart-details top_brand_home_details">
-                                                            <form action="#" method="post">
-                                                                <fieldset>
-                                                                    <input type="hidden" name="cmd" value="_cart" />
-                                                                    <input type="hidden" name="add" value="1" />
-                                                                    <input type="hidden" name="business" value=" " />
-                                                                    <input type="hidden" name="item_name" value="Mì Trộn" />
-                                                                    <input type="hidden" name="amount" value="25000" />
-                                                                    <input type="hidden" name="discount_amount" value="5000" />
-                                                                    <input type="hidden" name="currency_code" value="VND" />
-                                                                    <input type="hidden" name="return" value=" " />
-                                                                    <input type="hidden" name="cancel_return" value=" " />
-                                                                    <input type="submit" name="submit" value="Add to cart" class="button" />
-                                                                </fieldset>
-                                                            </form>
-                                                        </div>
-                                                    </div>
-                                                </figure>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="clearfix"> </div>
                             </div>
+                            <div class="col-md-4 top_brand_left">
+                                <div class="hover14 column">
+                                    <div class="agile_top_brand_left_grid">
+                                        <div class="agile_top_brand_left_grid1">
+                                            <figure>
+                                                <div class="snipcart-item block">
+                                                    <div class="snipcart-thumb">
+                                                        <a href="products.html"><img src="assets/client/images/5.jpg" alt=" " class="img-responsive" style="width:150px;height:150px;" /></a>
+                                                        <p>Bánh Tráng Nướng</p>
+                                                        <h4>20.000 ₫</h4>
+                                                    </div>
+                                                    <div class="snipcart-details top_brand_home_details">
+                                                        <form action="#" method="post">
+                                                            <fieldset>
+                                                                <input type="hidden" name="cmd" value="_cart" />
+                                                                <input type="hidden" name="add" value="1" />
+                                                                <input type="hidden" name="business" value=" " />
+                                                                <input type="hidden" name="item_name" value="Bánh Tráng Nướng" />
+                                                                <input type="hidden" name="amount" value="25000" />
+                                                                <input type="hidden" name="discount_amount" value="5000" />
+                                                                <input type="hidden" name="currency_code" value="VND" />
+                                                                <input type="hidden" name="return" value=" " />
+                                                                <input type="hidden" name="cancel_return" value=" " />
+                                                                <input type="submit" name="submit" value="Thêm vào giỏ" class="button" />
+                                                            </fieldset>
+                                                        </form>
+                                                    </div>
+                                                </div>
+                                            </figure>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-4 top_brand_left">
+                                <div class="hover14 column">
+                                    <div class="agile_top_brand_left_grid">
+                                        <div class="agile_top_brand_left_grid1">
+                                            <figure>
+                                                <div class="snipcart-item block">
+                                                    <div class="snipcart-thumb">
+                                                        <a href="products.html"><img src="assets/client/images/6.jpg" alt=" " class="img-responsive" style="width:150px;height:150px;" /></a>
+                                                        <p>Bắp Xào</p>
+                                                        <h4>20.000 ₫</h4>
+                                                    </div>
+                                                    <div class="snipcart-details top_brand_home_details">
+                                                        <form action="#" method="post">
+                                                            <fieldset>
+                                                                <input type="hidden" name="cmd" value="_cart" />
+                                                                <input type="hidden" name="add" value="1" />
+                                                                <input type="hidden" name="business" value=" " />
+                                                                <input type="hidden" name="item_name" value="Bắp Xào" />
+                                                                <input type="hidden" name="amount" value="25000" />
+                                                                <input type="hidden" name="discount_amount" value="5000" />
+                                                                <input type="hidden" name="currency_code" value="VND" />
+                                                                <input type="hidden" name="return" value=" " />
+                                                                <input type="hidden" name="cancel_return" value=" " />
+                                                                <input type="submit" name="submit" value="Thêm vào giỏ" class="button" />
+                                                            </fieldset>
+                                                        </form>
+                                                    </div>
+                                                </div>
+                                            </figure>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="clearfix"> </div>
+                        </div>
+                        <div class="agile_top_brands_grids">
+                            <div class="col-md-4 top_brand_left">
+                                <div class="hover14 column">
+                                    <div class="agile_top_brand_left_grid">
+                                        <div class="agile_top_brand_left_grid1">
+                                            <figure>
+                                                <div class="snipcart-item block">
+                                                    <div class="snipcart-thumb">
+                                                        <a href="products.html"><img title=" " alt=" " class="img-responsive" src="assets/client/images/7.jpg" style="width:150px;height:150px;" /></a>
+                                                        <p>Thập Cẩm</p>
+                                                        <h4>20.000 ₫</h4>
+                                                    </div>
+                                                    <div class="snipcart-details top_brand_home_details">
+                                                        <form action="#" method="post">
+                                                            <fieldset>
+                                                                <input type="hidden" name="cmd" value="_cart" />
+                                                                <input type="hidden" name="add" value="1" />
+                                                                <input type="hidden" name="business" value=" " />
+                                                                <input type="hidden" name="item_name" value="Thập Cẩm" />
+                                                                <input type="hidden" name="amount" value="25000" />
+                                                                <input type="hidden" name="discount_amount" value="5000" />
+                                                                <input type="hidden" name="currency_code" value="VND" />
+                                                                <input type="hidden" name="return" value=" " />
+                                                                <input type="hidden" name="cancel_return" value=" " />
+                                                                <input type="submit" name="submit" value="Thêm vào giỏ" class="button" />
+                                                            </fieldset>
+                                                        </form>
+                                                    </div>
+                                                </div>
+                                            </figure>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-4 top_brand_left">
+                                <div class="hover14 column">
+                                    <div class="agile_top_brand_left_grid">
+                                        <div class="agile_top_brand_left_grid1">
+                                            <figure>
+                                                <div class="snipcart-item block">
+                                                    <div class="snipcart-thumb">
+                                                        <a href="products.html"><img src="assets/client/images/8.jpg" alt=" " class="img-responsive" style="width:150px;height:150px;" /></a>
+                                                        <p>Bánh Mì</p>
+                                                        <h4>20.000 ₫</h4>
+                                                    </div>
+                                                    <div class="snipcart-details top_brand_home_details">
+                                                        <form action="#" method="post">
+                                                            <fieldset>
+                                                                <input type="hidden" name="cmd" value="_cart" />
+                                                                <input type="hidden" name="add" value="1" />
+                                                                <input type="hidden" name="business" value=" " />
+                                                                <input type="hidden" name="item_name" value="Bánh Mì" />
+                                                                <input type="hidden" name="amount" value="25000" />
+                                                                <input type="hidden" name="discount_amount" value="5000" />
+                                                                <input type="hidden" name="currency_code" value="VND" />
+                                                                <input type="hidden" name="return" value=" " />
+                                                                <input type="hidden" name="cancel_return" value=" " />
+                                                                <input type="submit" name="submit" value="Thêm vào giỏ" class="button" />
+                                                            </fieldset>
+                                                        </form>
+                                                    </div>
+                                                </div>
+                                            </figure>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-4 top_brand_left">
+                                <div class="hover14 column">
+                                    <div class="agile_top_brand_left_grid">
+                                        <div class="agile_top_brand_left_grid1">
+                                            <figure>
+                                                <div class="snipcart-item block">
+                                                    <div class="snipcart-thumb">
+                                                        <a href="products.html"><img src="assets/client/images/9.jpg" alt=" " class="img-responsive" style="width:150px;height:150px;" /></a>
+                                                        <p>Bột Chiên</p>
+                                                        <h4>20.000 ₫</h4>
+                                                    </div>
+                                                    <div class="snipcart-details top_brand_home_details">
+                                                        <form action="#" method="post">
+                                                            <fieldset>
+                                                                <input type="hidden" name="cmd" value="_cart" />
+                                                                <input type="hidden" name="add" value="1" />
+                                                                <input type="hidden" name="business" value=" " />
+                                                                <input type="hidden" name="item_name" value="Bột Chiên" />
+                                                                <input type="hidden" name="amount" value="25000" />
+                                                                <input type="hidden" name="discount_amount" value="5000" />
+                                                                <input type="hidden" name="currency_code" value="VND" />
+                                                                <input type="hidden" name="return" value=" " />
+                                                                <input type="hidden" name="cancel_return" value=" " />
+                                                                <input type="submit" name="submit" value="Thêm vào giỏ" class="button" />
+                                                            </fieldset>
+                                                        </form>
+                                                    </div>
+                                                </div>
+                                            </figure>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="clearfix"> </div>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
     </div>
-    <!-- //top-brands -->
 
     <!--brands-->
     <div class="brands">
         <div class="container">
-            <h3>Brand Store</h3>
+            <h3>Cửa Hàng</h3>
             <div class="brands-agile">
                 <div class="col-md-2 w3layouts-brand">
                     <div class="brands-w3l">
-                        <p><a href="#">Store A</a></p>
+                        <p><a href="#">Cửa Hàng A</a></p>
                     </div>
                 </div>
                 <div class="col-md-2 w3layouts-brand">
                     <div class="brands-w3l">
-                        <p><a href="#">Store B</a></p>
+                        <p><a href="#">Cửa Hàng B</a></p>
                     </div>
                 </div>
                 <div class="col-md-2 w3layouts-brand">
                     <div class="brands-w3l">
-                        <p><a href="#">Store C</a></p>
+                        <p><a href="#">Cửa Hàng C</a></p>
                     </div>
                 </div>
                 <div class="col-md-2 w3layouts-brand">
                     <div class="brands-w3l">
-                        <p><a href="#">Store D</a></p>
+                        <p><a href="#">Cửa Hàng D</a></p>
                     </div>
                 </div>
                 <div class="col-md-2 w3layouts-brand">
                     <div class="brands-w3l">
-                        <p><a href="#">Store E</a></p>
+                        <p><a href="#">Cửa Hàng E</a></p>
                     </div>
                 </div>
                 <div class="col-md-2 w3layouts-brand">
                     <div class="brands-w3l">
-                        <p><a href="#">Store F</a></p>
+                        <p><a href="#">Cửa Hàng F</a></p>
                     </div>
                 </div>
                 <div class="col-md-2 w3layouts-brand">
                     <div class="brands-w3l">
-                        <p><a href="#">Store G</a></p>
+                        <p><a href="#">Cửa Hàng G</a></p>
                     </div>
                 </div>
                 <div class="col-md-2 w3layouts-brand">
                     <div class="brands-w3l">
-                        <p><a href="#">Store H</a></p>
+                        <p><a href="#">Cửa Hàng H</a></p>
                     </div>
                 </div>
                 <div class="col-md-2 w3layouts-brand">
                     <div class="brands-w3l">
-                        <p><a href="#">Store I</a></p>
+                        <p><a href="#">Cửa Hàng I</a></p>
                     </div>
                 </div>
                 <div class="col-md-2 w3layouts-brand">
                     <div class="brands-w3l">
-                        <p><a href="#">Store K</a></p>
+                        <p><a href="#">Cửa Hàng K</a></p>
                     </div>
                 </div>
                 <div class="col-md-2 w3layouts-brand">
                     <div class="brands-w3l">
-                        <p><a href="#">Store L</a></p>
+                        <p><a href="#">Cửa Hàng L</a></p>
                     </div>
                 </div>
                 <div class="clearfix"></div>
@@ -431,7 +529,7 @@
                                                     <input type="hidden" name="currency_code" value="VND">
                                                     <input type="hidden" name="return" value=" ">
                                                     <input type="hidden" name="cancel_return" value=" ">
-                                                    <input type="submit" name="submit" value="Add to cart" class="button">
+                                                    <input type="submit" name="submit" value="Thêm vào giỏ" class="button">
                                                 </fieldset>
                                             </form>
                                         </div>
@@ -464,7 +562,7 @@
                                                     <input type="hidden" name="currency_code" value="VND">
                                                     <input type="hidden" name="return" value=" ">
                                                     <input type="hidden" name="cancel_return" value=" ">
-                                                    <input type="submit" name="submit" value="Add to cart" class="button">
+                                                    <input type="submit" name="submit" value="Thêm vào giỏ" class="button">
                                                 </fieldset>
                                             </form>
                                         </div>
@@ -497,7 +595,7 @@
                                                     <input type="hidden" name="currency_code" value="VND">
                                                     <input type="hidden" name="return" value=" ">
                                                     <input type="hidden" name="cancel_return" value=" ">
-                                                    <input type="submit" name="submit" value="Add to cart" class="button">
+                                                    <input type="submit" name="submit" value="Thêm vào giỏ" class="button">
                                                 </fieldset>
                                             </form>
                                         </div>
@@ -530,7 +628,7 @@
                                                     <input type="hidden" name="currency_code" value="VND">
                                                     <input type="hidden" name="return" value=" ">
                                                     <input type="hidden" name="cancel_return" value=" ">
-                                                    <input type="submit" name="submit" value="Add to cart" class="button">
+                                                    <input type="submit" name="submit" value="Thêm vào giỏ" class="button">
                                                 </fieldset>
                                             </form>
                                         </div>
