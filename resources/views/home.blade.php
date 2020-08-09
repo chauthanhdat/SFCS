@@ -73,20 +73,17 @@
                 <div class="collapse navbar-collapse" id="bs-megadropdown-tabs">
                     <ul class="nav navbar-nav">
                         <li class="active"><a href="" class="act">Trang Chủ</a></li>
-                        <!-- Mega Menu -->
                         <li class="dropdown">
                             <a href="#" class="dropdown-toggle" data-toggle="dropdown">Ăn Uống<b class="caret"></b></a>
                             <ul class="dropdown-menu multi-column columns-3">
                                 <div class="row">
                                     <div class="multi-gd-img">
                                         <ul class="multi-column-dropdown">
-                                            <h6>All Groceries</h6>
-                                            <li><a href="groceries.html">Dals & Pulses</a></li>
-                                            <li><a href="groceries.html">Almonds</a></li>
-                                            <li><a href="groceries.html">Cashews</a></li>
-                                            <li><a href="groceries.html">Dry Fruit</a></li>
-                                            <li><a href="groceries.html"> Mukhwas </a></li>
-                                            <li><a href="groceries.html">Rice & Rice Products</a></li>
+                                            <li><a href="">Bữa Sáng</a></li>
+                                            <li><a href="">Bữa Trưa</a></li>
+                                            <li><a href="">Nước Uống</a></li>
+                                            <li><a href="">Bánh Ngọt</a></li>
+                                            <li><a href="">Chè</a></li>
                                         </ul>
                                     </div>
 
@@ -99,6 +96,23 @@
         </div>
     </div>
     <!-- //navigation -->
+    <div class="logo_products">
+        <div class="container">
+            <div class="w3ls_logo_products_left">
+                <h1><a href="">smart food court system</a></h1>
+            </div>
+            <div class="w3l_search">
+                <form action="#" method="post">
+                    <input type="search" name="Search" placeholder="Search for a Product..." required="">
+                    <button type="submit" class="btn btn-default search" aria-label="Left Align">
+                        <i class="fa fa-search" aria-hidden="true"> </i>
+                    </button>
+                    <div class="clearfix"></div>
+                </form>
+            </div>
+            <div class="clearfix"> </div>
+        </div>
+    </div>
 
 
     <div class="container">
