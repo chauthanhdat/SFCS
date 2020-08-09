@@ -40,6 +40,16 @@
         });
     </script>
     <!-- start-smoth-scrolling -->
+
+    <!-- ------------------- Copy ------------------ -->
+
+    <!-- CSRF Token -->
+    <!-- <meta name="csrf-token" content="{{ csrf_token() }}"> -->
+
+    <!-- Styles -->
+    <!-- <link href="{{ asset('css/app.css') }}" rel="stylesheet"> -->
+    <!-- <link href="{{ asset('css/home.css') }}" rel="stylesheet"> -->
+    <!-- ----------------- End Copy ---------------- -->
 </head>
 
 <body>
@@ -83,27 +93,6 @@
                                 </div>
                             </ul>
                         </li>
-                        <!-- <li class="dropdown">
-                            <a href="#" class="dropdown-toggle" data-toggle="dropdown">Beverages<b class="caret"></b></a>
-                            <ul class="dropdown-menu multi-column columns-3">
-                                <div class="row">
-                                    <div class="multi-gd-img">
-                                        <ul class="multi-column-dropdown">
-                                            <h6>Tea & Coeffe</h6>
-                                            <li><a href="beverages.html">Green Tea</a></li>
-                                            <li><a href="beverages.html">Ground Coffee</a></li>
-                                            <li><a href="beverages.html">Herbal Tea</a></li>
-                                            <li><a href="beverages.html">Instant Coffee</a></li>
-                                            <li><a href="beverages.html"> Tea </a></li>
-                                            <li><a href="beverages.html">Tea Bags</a></li>
-                                        </ul>
-                                    </div>
-
-                                </div>
-                            </ul>
-                        </li> -->
-                        <li><a href="contact.html">Liên Hệ</a></li>
-                        <li><a href="">Đăng xuất</a></li>
                     </ul>
                 </div>
             </nav>
